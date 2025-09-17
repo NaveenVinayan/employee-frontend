@@ -24,8 +24,8 @@ const authContext = ({ children }) => {
                     )
                     if (response.data.success) {
                         setUser(response.data.user)
-                        
-                        
+
+
                     }
                 } else {
                     setUser(null)
